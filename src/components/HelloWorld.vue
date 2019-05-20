@@ -10,13 +10,16 @@
 </template>
 
 <script>
-import { before, after, once, evolve, composeWith, createCounter, time, identity, track } from 'trackpoint-tools'
+import { before, after, once, evolve, composeWith, createCounter, time, identity, track } from 'track-tools'
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  mounted() {
+    
   },
 
   methods: {
